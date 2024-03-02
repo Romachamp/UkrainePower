@@ -169,7 +169,6 @@ button {
 .greetings-content {
     color: white;
     padding: 20px;
-    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -194,6 +193,7 @@ button {
 
 .greetings-text p {
     font-weight: 300;
+    max-width: 600px;
 }
 
 /* -------------- */
@@ -273,7 +273,7 @@ button {
     width: 100%;
 }
 
-@media (max-width: 600px) {
+@media(max-width: 600px) {
     .about-ukraine-section {
         display: flex;
         flex-direction: column;
