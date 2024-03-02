@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Сила України | Події</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="header-nav">
+        <ul class="header-menu">
+            <li>
+                <a href="index.html" class="menu-link">Головна</a>
+            </li>
+            <li>
+                <a href="events.html" class="menu-link">Події</a>
+            </li>
+            <li>
+                <a href="about.html" class="menu-link">Про мене</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+            <div class="events-slide-content">
+                <h2 class="events-slide-title">Помаранчева Революція</h2>
+                <div class="events-slide-text">
+                    <p>
+                        Помаранчева революція 2004 року стала першим масовим протестом проти фальсифікації виборів та
+                        прагненням до демократії.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="events-slide-content">
+                <h2 class="events-slide-title">Революція Гідності</h2>
+                <div class="events-slide-text">
+                    <p>
+                        Революція Гідності 2013-2014 років розпочалася через відмову януковича підписати Угоду про
+                        асоціацію з ЄС, жорстоке побиття мітингувальників та закінчилася його втечею.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="events-slide-content">
+                <h2 class="events-slide-title">Війна</h2>
+                <div class="events-slide-text">
+                    <p>
+                        Сьогодні війна в Україні триває. Українці понад 2 роки сміливо виборюють свою незалежність.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+<div class="events-tabs">
+    <ul class="tab-buttons-list">
+        <li class="stylized-button">Помаранчева Революція <i>(2004)</i></li>
+        <li class="stylized-button">Революція Гідності <i>(2013-2014)</i></li>
+        <li class="stylized-button">Війна <i>(2022-дотепер)</i></li>
+    </ul>
+    <div class="tabs-container">
+
+        <div class="event-tab visible">
+            <div class="tab-card">
+                <h3 class="tab-title">Причини</h3>
+                <div class="tab-content">
+                    <p>
+                        Фальсифікація результатів президентських виборів на користь віктора януковича.
+                    </p>
+                </div>
+            </div>
+            <div class="tab-card">
+                <h3 class="tab-title">Результати</h3>
+                <div class="tab-content">
+                    <p>
+                        Повторне голосування, в якому переміг Віктор Ющенко.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-tab">
+            <div class="tab-card">
+                <h3 class="tab-title">Причини</h3>
+                <div class="tab-content">
+                    <p>
+                        Відмова януковича підписати Угоду про асоціацію з ЄС.
+                    </p>
+                </div>
+            </div>
+            <div class="tab-card">
+                <h3 class="tab-title">Результати</h3>
+                <div class="tab-content">
+                    <p>
+                        Інтеграція з ЄС, втеча януковича з України.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-tab">
+            <div class="tab-card">
+                <h3 class="tab-title">Причини</h3>
+                <div class="tab-content">
+                    <p>
+                        Прагнення росії захопити Україну та російська агресія проти нашої держави.
+                    </p>
+                </div>
+            </div>
+            <div class="tab-card">
+                <h3 class="tab-title">Результати</h3>
+                <div class="tab-content">
+                    <p>
+                        Боротьба українців за незалежність та повернення окупованих територій.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-card">
+            <h2 class="footer-card-title">Навігація</h2>
+            <ul class="footer-menu-list">
+                <li>
+                    <a href="index.html" class="footer-link">Головна</a>
+                </li>
+                <li>
+                    <a href="events.html" class="footer-link">Події</a>
+                </li>
+                <li>
+                    <a href="about.html" class="footer-link">Про мене</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-card">
+            <h2 class="footer-card-title">Контакти</h2>
+            <a href="mailto:tiospal@ukr.net" class="footer-link">tiospal@ukr.net</a>
+        </div>
+        <div class="footer-card">
+            <h2 class="footer-card-title">Про сайт</h2>
+            <ul class="footer-menu-list">
+                <li>Дата: 2024</li>
+                <li>Країна: Україна</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="./js/script.js"></script>
+
+
+</body>
+</html>
