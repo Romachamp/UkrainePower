@@ -329,11 +329,18 @@ button {
 
 .swiper-slide {
     height: 100vh;
-    text-align: center;
+}
+
+.events-slide-bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    text-align: center;
 }
 
 .swiper-slide:nth-child(1) {
