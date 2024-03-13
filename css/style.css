@@ -382,40 +382,11 @@ button {
 
 /* --------- */
 
-.events-tabs {
-    max-width: 1200px;
-    margin: 10px auto;
-    padding: 20px;
-}
-
-.tab-buttons-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-}
-
 .stylized-button {
     cursor: pointer;
 }
 
-.tabs-container {
-    margin-top: 20px;
-}
-
 .event-tab {
-    opacity: 0;
-    height: 0;
-    transform: translateY(100px);
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.event-tab.visible {
-    opacity: 1;
-    transform: translateY(0);
-    height: 100%;
     display: flex;
     justify-content: space-between;
     gap: 30px;
