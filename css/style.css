@@ -235,12 +235,12 @@ button {
     display: inline-block;
     font-size: 18px;
     position: relative;
-    margin-top: 20px;
+    margin: 20px 10px;
     padding: 10px;
     outline: none;
     background: none;
-    color: black;
-    border: 2px solid black;
+    color: white;
+    border: 2px solid white;
 }
 
 .stylized-button::before {
@@ -250,7 +250,7 @@ button {
     top: -10px;
     width: 0;
     height: 2px;
-    background: black;
+    background: white;
     transition: 0.3s;
 }
 
@@ -261,7 +261,7 @@ button {
     top: 50px;
     width: 0;
     height: 2px;
-    background: black;
+    background: white;
     transition: 0.3s;
 }
 
